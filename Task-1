@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Portfolio</title>
+    <style>
+      body {
+    background-color:rgb(177, 127, 111);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:rgb(182, 200, 229);
+    color: #cc1818;
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+header .tagline {
+    font-style: italic;
+}
+
+section {
+    padding: 20px;
+    margin: 0 10%;
+}
+
+#about img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.bio {
+    margin-top: 10px;
+}
+
+#skills ul {
+    list-style-type:none;
+    padding: 0;
+}
+
+#skills li {
+    background-color:wheat ;
+    margin: 5px 0;
+    padding: 10px;
+}
+/* #projects{
+    background-color:;
+} */
+
+.project1 {
+    margin-bottom: 20px;
+}
+
+.project2 img {
+    width: 50%;
+    height: auto;
+
+}
+.project1 img{
+    width: 50%;
+    height: auto;
+    
+}
+.project1 h1{
+    color: #cc1818;
+}
+.project2 h1{
+    color: #cc1818;
+}
+#contact{
+    height: 80vh;
+}
+
+footer {
+    background-color: #333333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+footer a {
+    color:floralwhite;
+    text-decoration: none;
+}
+</style>
+    
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>BOINI NIKITHA</h1>
+        </div>
+        <p class="tagline">Student</p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <img src="pic.jpg" alt="Nikitha">
+        <div class="bio">
+            <h1>About Me</h1>
+            <p>I am a dedicated and enthusiastic student with a passion for Coding. My academic journey has been characterized by a strong commitment to  problem-solving, critical thinking, creativity. I have consistently demonstrated a high level of engagement through  coursework, projects, internships, where I have applied theoretical knowledge to practical situations.
+            </p>
+           <p>I am focused on my career goals and academic aspirations I aim to leverage my skills and experiences to achieve my aim in future endeavors.</p>
+           <p>Through my academic and extracurricular experiences, I have developed a robust set of skills that I am eager to apply in Software. I am committed to continuous learning and growth and look forward to contributing positively toSociety.
+        </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h1>Skills</h1>
+        <ul>
+            <li>Team Work</li>
+            <li>Java</li>
+            <li>C</li>
+            <li>Python</li>
+            <li>Creative Thinking</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project1">
+            <img src="p1.jpg" alt="Project 1" >
+            <h1>BLOCK CHAIN BASED CERTIFICATE VALIDATION </h1>
+            <p>
+                A blockchain-based certificate validation project faces challenges such as scalability, data privacy, and integration with existing systems. Scalability issues arise from managing a high volume of certificate transactions, which can be mitigated by employing scalable blockchain platforms or layer-2 solutions. Data privacy concerns can be addressed through encryption, using permissioned blockchains, or combining on-chain and off-chain storage to protect sensitive information. Integration with existing systems requires developing robust APIs and middleware to ensure smooth interoperability.
+<br><br>
+Moreover, achieving stakeholder buy-in and navigating regulatory uncertainties can be complex. To foster adoption, pilot projects and demonstrations can help build trust among institutions and employers. Legal and regulatory issues should be managed by staying updated with regulations and consulting legal experts. Additionally, cost concerns can be alleviated by selecting cost-effective blockchain solutions and considering phased implementation to spread expenses.
+            </p><hr><hr>
+        </div>
+        <div class="project2">
+            <img src="p2.jpg" alt="Project 2">
+            <h1>REAL TIME CCTV VIDEO ANALYSIS DEEEP LEARNING FOR WEAPON DETECTION</h1>
+            <p>
+                Real-time CCTV video analysis for weapon detection using deep learning faces the challenge of accurately identifying weapons in diverse and dynamic environments. Problems include high computational demands, as real-time processing requires substantial processing power to analyze video streams without delay. Additionally, variations in weapon types, lighting conditions, and occlusions can complicate detection accuracy and reliability. 
+<br><br>
+The solution involves deploying advanced deep learning models specifically trained for object detection and recognition tasks. Using optimized neural networks, such as YOLO (You Only Look Once) or SSD (Single Shot MultiBox Detector), can enhance both speed and accuracy in identifying weapons. To address computational constraints, leveraging edge computing or cloud-based processing can help manage the workload. Additionally, employing data augmentation techniques and incorporating diverse training datasets can improve the model's robustness across different scenarios, ensuring reliable detection in real-world conditions.
+            </p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h1>Resume</h1>
+        <p><a href="resume[Nikitha].pdf" download>Download My Resume (PDF)</a></p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h1>Contact</h1>
+        <p>Email: <a href="mailto:boininikitha023@gmail.com">boininikitha023@gmail.com</a></p>
+        <p>Phone: 1234526181</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 @Nikitha. All rights reserved.</p>
+        <p><a href="#about">Back to Top</a></p>
+    </footer>
+</body>
+</html>
+
+
